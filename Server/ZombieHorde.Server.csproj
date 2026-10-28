@@ -6,14 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <OutputPath>bin\$(Configuration)\ZombieHorde\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="SPTushonka.Common" Version="4.1.6" />
     <PackageReference Include="SPTushonka.DI" Version="4.1.6" />
     <PackageReference Include="SPTushonka.Server.Core" Version="4.1.6" />
     <PackageReference Include="SPTushonka.Server.Web" Version="4.1.6" />
+    <PackageReference Include="MudBlazor" Version="9.7.0" ExcludeAssets="runtime" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="config.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="wwwroot\**\*" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 </Project>
