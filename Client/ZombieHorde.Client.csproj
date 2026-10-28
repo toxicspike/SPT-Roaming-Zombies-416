@@ -19,10 +19,11 @@
 
   <!-- Directories -->
   <PropertyGroup>
-    <TarkovDir Condition=" '$(TarkovDir)' == '' ">C:\SPT\ModTest\</TarkovDir>
+    <TarkovDir Condition=" '$(TarkovDir)' == '' ">D:\SPT 4.1.6\</TarkovDir>
     <TarkovPluginsSPTDir>$(TarkovDir)BepInEx\plugins\spt\</TarkovPluginsSPTDir>
     <TarkovManagedDir>$(TarkovDir)EscapeFromTarkov_Data\Managed\</TarkovManagedDir>
     <TarkovBepInExCoreDir>$(TarkovDir)BepInEx\core\</TarkovBepInExCoreDir>
+    <TarkovServerModsDir>$(TarkovDir)SPT_Runtime\user\mods\</TarkovServerModsDir>
   </PropertyGroup>
 
   <!-- References -->
@@ -76,7 +77,7 @@
           DestinationFolder="$(ProjectDir)release\$(ModName)\BepInEx\plugins\$(ModName)\" />
 
     <Copy SourceFiles="@(ServerDLL);@(ServerConfig)"
-          DestinationFolder="$(ProjectDir)release\$(ModName)\SPT\user\mods\$(ModName)\" />
+          DestinationFolder="$(ProjectDir)release\$(ModName)\SPT_Runtime\user\mods\$(ModName)\" />
 
     <ZipDirectory SourceDirectory="$(ProjectDir)release\$(ModName)\"
                   DestinationFile="$(ProjectDir)release\$(ModName).zip" />
@@ -85,7 +86,7 @@
 
     <!-- ============ Deploy to local SPT install (best-effort — may fail if SPT is running) ============ -->
     <Copy SourceFiles="@(ClientDLL);@(ClientLicense);@(AudioFiles)"
-          DestinationFolder="$(TarkovDir)BepInEx\plugins\$(ModName)\"
+          DestinationFolder="$(TarkovServerModsDir\$(ModName)\"
           ContinueOnError="true" />
 
     <Copy SourceFiles="@(ServerDLL);@(ServerConfig)"
