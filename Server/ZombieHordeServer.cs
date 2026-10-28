@@ -21,8 +21,8 @@ public record ZombieHordeMetadata : IModMetadata
     public string Name { get; init; } = "Roaming Zombies";
     public string Author { get; init; } = "DrBraun";
     public List<string>? Contributors { get; init; }
-    public SemanticVersioning.Version Version { get; init; } = new("1.2.1");
-    public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.2");
+    public SemanticVersioning.Version Version { get; init; } = new("1.2.2");
+    public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.0");
     public bool HasPrepatcher { get; init; } = false;
     public List<string>? Incompatibilities { get; init; }
     public Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
