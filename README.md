@@ -14,16 +14,9 @@
 
 ## What's new in v1.2.2
 
+### SPT 4.1.6
 Patched to SPT 4.1.6.
-Now allows Configuration via SPT Server Config.
-
-### Pistol zombies (new)
-- A secondary horde spawns at `BotDifficulty=hard` which activates EFT's `EZombieMode.Shooting` — they pull a Makarov and engage you from 15 meters.
-- Route through EFT's standard bot shoot AI, so no client-side hacks — they aim, fire, lead you, take cover, all the usual stuff.
-- Configurable count per horde. Default is 1-2 pistol zombies per infected type per raid.
-
-### Plus the classic touch-infection damage
-EFT's built-in zombie-infection contact damage still stacks on top. Get surrounded and you'll bleed health even between swings. Good luck.
+Now also allows Configuration via SPT Server Config.
 
 ---
 
@@ -213,6 +206,10 @@ So we bypass the broken pursuit path entirely:
 ---
 
 ## Changelog
+
+### v1.2." — "The Dead Actually Rise"
+- **Support for SPT 4.1.6**
+- **Config changes via innate SPT Server Support**
 
 ### v1.2.0 — "The Dead Actually Rise"
 The one that makes zombies threatening.
