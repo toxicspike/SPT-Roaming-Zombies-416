@@ -12,15 +12,10 @@
 
 ---
 
-## What's new in v1.2.0
+## What's new in v1.2.2
 
-**Zombies are an actual threat now. I cannot stress this enough.** Previous versions spawned infected bots that shambled around and couldn't fight back — a bizarre touch-damage effect was the only way they could hurt you. Not anymore. Expect to die if you don't respect the horde.
-
-### Melee zombies
-- **Actively hunt the player.** They pathfind toward you and face you before each swing so the hit actually lands.
-- **Real knife swing animations.** EFT's standard `KnifeController.MakeKnifeKick()` is triggered directly — proper animation, proper hit-cast, proper damage.
-- **Damage is native.** Hits go through EFT's `KnifeCollider` → `ApplyDamage` pipeline using whatever knife the bot spawned with (Bayonet, Kiba, Hatchet, Halloween knife). **Armor class reduction works normally** — a level-4 vest actually protects you now.
-- **1 second swing cadence** once in range. They'll chain combos on you if you don't move.
+Patched to SPT 4.1.6.
+Now allows Configuration via SPT Server Config.
 
 ### Pistol zombies (new)
 - A secondary horde spawns at `BotDifficulty=hard` which activates EFT's `EZombieMode.Shooting` — they pull a Makarov and engage you from 15 meters.
