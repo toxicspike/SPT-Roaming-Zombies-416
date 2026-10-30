@@ -54,7 +54,7 @@ Tested. Works every raid, forever.
 
 | Requirement | Version |
 |---|---|
-| SPT | `~4.0.13` |
+| SPT | `~4.1.x` |
 | BepInEx ConfigurationManager | *optional* (for F12 panel) |
 
 **No mod dependencies.** No BigBrain, no SAIN, no MoreBotsAPI. Self-contained.
@@ -207,7 +207,7 @@ So we bypass the broken pursuit path entirely:
 
 ## Changelog
 
-### v1.2.2" 
+### v1.2.2
 - **Support for SPT 4.1.6**
 - **Config changes via innate SPT Server Support**
 
