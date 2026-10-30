@@ -207,7 +207,7 @@ So we bypass the broken pursuit path entirely:
 
 ## Changelog
 
-### v1.2." — "The Dead Actually Rise"
+### v1.2.2" 
 - **Support for SPT 4.1.6**
 - **Config changes via innate SPT Server Support**
 
