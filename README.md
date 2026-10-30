@@ -16,6 +16,7 @@
 
 ### SPT 4.1.6
 Patched to SPT 4.1.6.
+
 Now also allows Configuration via SPT Server Config.
 
 ---
