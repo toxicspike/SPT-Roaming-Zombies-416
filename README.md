@@ -4,7 +4,7 @@
 
 > *"The dead are rising... zombies have been spotted nearby."*
 
-[Download v1.2.0](https://github.com/Vonbraunz/SPT-Roaming-Zombies) · [Changelog](#changelog) · [Fika + ABPS compatible](#compatibility)
+[Download v1.2.1](https://github.com/Vonbraunz/SPT-Roaming-Zombies) · [Changelog](#changelog) · [Fika + ABPS compatible](#compatibility)
 
 > ### ⚠️ I cannot stress this enough — zombies are a real challenge now
 >
